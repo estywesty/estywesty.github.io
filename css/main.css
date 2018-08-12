@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Navigation*/
+
+#logo {
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+/*jumbotron*/
+
+.jumbotron {
+    position: relative;
+    background: #fff url(../assets/jumbo.jpg) center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.jumbotron h1 {
+	color: #38b2c0
+}
+
+.jumbotron p {
+	color: #fff;
+}
+
+.jumbotron a {
+	color: #38b2c0
+}
+
+/*About Section*/
+
+.row h2 {
+	margin-bottom: 1em;
+}
+
+.row h4 {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.row ul {
+	text-align: left;
+}
+
+.itemised {
+	list-style-type: none;
+	padding-left: 0px;
+}
+	
+.itemised li:nth-child(1) {
+	font-size: 0.7em;
+}
+
+.itemised li:nth-child(2) {
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.itemised li:nth-child(3) {
+	font-size: 0.7em;
+}
+
+#skills li {
+	list-style-type: square;
+	color: #ddd;
+}
+
+#skills li span {
+	color: #000000;
+}
+
+
+/*Hobbies Section*/
+
+.well {
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+
+.well ul {
+	text-align: center;
+}
+
+.well li {
+	list-style-type: none;
+	display: inline;
+}
+
+/*Testimonials Section*/
+
+.quotes .container div {
+	margin-bottom: 4em;
+}
+
+/*Portfolio*/
+
+#name {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#job {
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.img-responsive {
+	margin-bottom: 20px;
+}
+
+/*Footer*/
+
+.icons {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
